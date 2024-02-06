@@ -1,0 +1,106 @@
+.formpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(255, 0, 0, 0.452);
+}
+
+.formcontainer{
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.153);
+}
+
+.formcontainer h1{
+    color: white;
+    margin: 10px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.profilediv{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.profilediv img{
+    border-radius: 50%;
+}
+
+/* .profilediv input{
+    margin: 10px 0px; 
+} */
+
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 5px;
+}
+.inputcontainer label{
+    color: white;
+    font-size: 14px;
+    
+}
+.inputcontainer input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color:  transparent;
+    color: white;
+}
+
+.inputcontainer1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 5px;
+    gap: 5px;
+}
+
+.inputcontainer1 label{
+    color: white;
+    font-size: 14px;
+}
+.inputcontainer1 .inputrow{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding:  5px;
+}
+
+.inputcontainer1 .inputrow input{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.inputcontainer1 .inputrow svg{
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.formcontainer button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #3a5a40;
+    cursor: pointer;
+    transition: 0,3s;
+    margin: 10px;
+
+}
